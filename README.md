@@ -24,4 +24,18 @@ This project demonstrates how to perform **CRUD (Create, Read, Update, Delete)**
 ---
 
 ## 📂 Project Structure
+Book-Store/
+│
+├── models/
+│ └── Book.js # Mongoose schema and model for books
+|
+│__ controllers
+| |__Book_controller.js
+|
+├── routes/
+│ └── bookRoutes.js # Routes for book CRUD operations
+│
+├── server.js # Main entry point of the application
+├── package.json # Project dependencies and scripts
+└── README.md # Documentation
 
